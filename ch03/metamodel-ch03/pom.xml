@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>metamodel-ch03</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>hibernate-core</artifactId>
+      <groupId>org.hibernate.orm</groupId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    <dependency>
+      <artifactId>hibernate-jpamodelgen</artifactId>
+      <groupId>org.hibernate.orm</groupId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    <dependency>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.29</version>
+    </dependency>
+    <dependency>
+      <artifactId>jakarta.validation-api</artifactId>
+      <groupId>jakarta.validation</groupId>
+      <version>3.0.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>jakarta.el</artifactId>
+      <groupId>org.glassfish</groupId>
+      <version>4.0.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>hibernate-validator</artifactId>
+      <groupId>org.hibernate.validator</groupId>
+      <version>8.0.1.Final</version>
+    </dependency>
+    <dependency>
+      <artifactId>jakarta.xml.bind-api</artifactId>
+      <groupId>jakarta.xml.bind</groupId>
+      <version>4.0.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.antlr/antlr4 -->
+    <dependency>
+      <artifactId>antlr4</artifactId>
+      <groupId>org.antlr</groupId>
+      <version>4.13.1</version>
+    </dependency>
+    <dependency>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <groupId>org.junit.jupiter</groupId>
+      <scope>test</scope>
+      <version>5.8.2</version>
+    </dependency>
+  </dependencies>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>java-persistence-spring-data-hibernate</artifactId>
+    <groupId>com.azimbabu.javapersistence</groupId>
+    <relativePath>../../pom.xml</relativePath>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <hibernate.version>6.3.1.Final</hibernate.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
