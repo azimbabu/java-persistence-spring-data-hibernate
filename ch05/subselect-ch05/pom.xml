@@ -3,6 +3,7 @@
   xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <artifactId>subselect-ch05</artifactId>
+
   <dependencies>
     <dependency>
       <artifactId>hibernate-core</artifactId>
@@ -41,8 +42,8 @@
       <version>5.8.2</version>
     </dependency>
     <dependency>
-      <artifactId>spring-test</artifactId>
       <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
       <scope>test</scope>
       <version>6.0.12</version>
     </dependency>

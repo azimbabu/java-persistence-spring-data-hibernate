@@ -17,6 +17,15 @@
     <module>ch05/generator-ch05</module>
     <module>ch05/mapping-ch05</module>
     <module>ch05/subselect-ch05</module>
+    <module>ch06/mapping-value-types</module>
+    <module>ch06/mapping-value-types2</module>
+    <module>ch06/mapping-value-types3</module>
+    <module>ch06/mapping-value-types4</module>
+    <module>ch07/mapping-inheritance-mappedsuperclass</module>
+    <module>ch07/mapping-inheritance-tableperclass</module>
+    <module>ch07/mapping-inheritance-singletable</module>
+    <module>ch07/mapping-inheritance-singletableformula</module>
+    <module>ch07/mapping-inheritance-joined</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

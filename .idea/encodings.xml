@@ -20,6 +20,24 @@
     <file url="file://$PROJECT_DIR$/ch05/mapping-ch05/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch05/subselect-ch05/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch05/subselect-ch05/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types4/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch06/mapping-value-types4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-joined/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-joined/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-mappedsuperclass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-mappedsuperclass/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-singletable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-singletable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-singletableformula/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-singletableformula/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-tableperclass/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-tableperclass/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

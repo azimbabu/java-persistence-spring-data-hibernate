@@ -39,15 +39,16 @@ public class SpringDataConfiguration {
   }
 
   @Bean
-  public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
+  public LocalContainerEntityManagerFactoryBean entityManagerFactory(DataSource dataSource,
+      JpaVendorAdapter jpaVendorAdapter) {
     LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
-    entityManagerFactoryBean.setDataSource(dataSource());
+    entityManagerFactoryBean.setDataSource(dataSource);
 
     Properties properties = new Properties();
     properties.put("hibernate.hbm2ddl.auto", "create");
 
     entityManagerFactoryBean.setJpaProperties(properties);
-    entityManagerFactoryBean.setJpaVendorAdapter(jpaVendorAdapter());
+    entityManagerFactoryBean.setJpaVendorAdapter(jpaVendorAdapter);
     entityManagerFactoryBean.setPackagesToScan("com.azimbabu.javapersistence.ch05.subselect");
     return entityManagerFactoryBean;
   }
