@@ -13,7 +13,6 @@
     <module>ch03/metadataxmljpa-ch03</module>
     <module>ch03/metamodel-ch03</module>
     <module>ch04/springdatajpa-ch04</module>
-    <module>ch04/springdatajpa2-ch04-deleted</module>
     <module>ch05/generator-ch05</module>
     <module>ch05/mapping-ch05</module>
     <module>ch05/subselect-ch05</module>
@@ -27,6 +26,7 @@
     <module>ch07/mapping-inheritance-singletableformula</module>
     <module>ch07/mapping-inheritance-joined</module>
     <module>ch04/springdatajpa2-ch04</module>
+    <module>ch07/mapping-inheritance-mixed</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
