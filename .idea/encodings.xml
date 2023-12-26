@@ -30,8 +30,12 @@
     <file url="file://$PROJECT_DIR$/ch06/mapping-value-types3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch06/mapping-value-types4/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch06/mapping-value-types4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-embeddable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-embeddable/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-joined/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-joined/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-manytoone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-manytoone/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-mappedsuperclass/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-mappedsuperclass/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch07/mapping-inheritance-mixed/src/main/java" charset="UTF-8" />

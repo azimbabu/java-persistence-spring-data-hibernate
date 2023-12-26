@@ -27,6 +27,8 @@
     <module>ch07/mapping-inheritance-joined</module>
     <module>ch04/springdatajpa2-ch04</module>
     <module>ch07/mapping-inheritance-mixed</module>
+    <module>ch07/mapping-inheritance-embeddable</module>
+    <module>ch07/mapping-inheritance-manytoone</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
