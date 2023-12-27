@@ -29,6 +29,7 @@
     <module>ch07/mapping-inheritance-mixed</module>
     <module>ch07/mapping-inheritance-embeddable</module>
     <module>ch07/mapping-inheritance-manytoone</module>
+    <module>ch07/mapping-inheritance-onetomany</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
