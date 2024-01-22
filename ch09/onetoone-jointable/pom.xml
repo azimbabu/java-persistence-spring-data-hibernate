@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>onetoone-jointable</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>hibernate-core</artifactId>
+      <groupId>org.hibernate.orm</groupId>
+      <version>6.3.1.Final</version>
+    </dependency>
+    <dependency>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.29</version>
+    </dependency>
+    <dependency>
+      <artifactId>spring-data-jpa</artifactId>
+      <groupId>org.springframework.data</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>jakarta.validation-api</artifactId>
+      <groupId>jakarta.validation</groupId>
+      <version>3.0.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>jakarta.el</artifactId>
+      <groupId>org.glassfish</groupId>
+      <scope>test</scope>
+      <version>4.0.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>hibernate-validator</artifactId>
+      <groupId>org.hibernate.validator</groupId>
+      <version>8.0.1.Final</version>
+    </dependency>
+    <dependency>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <groupId>org.junit.jupiter</groupId>
+      <scope>test</scope>
+      <version>5.8.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>spring-test</artifactId>
+      <groupId>org.springframework</groupId>
+      <scope>test</scope>
+      <version>6.0.12</version>
+    </dependency>
+    <dependency>
+      <artifactId>log4j-api</artifactId>
+      <groupId>org.apache.logging.log4j</groupId>
+      <version>2.22.0</version>
+    </dependency>
+    <dependency>
+      <artifactId>log4j-core</artifactId>
+      <groupId>org.apache.logging.log4j</groupId>
+      <version>2.22.0</version>
+    </dependency>
+  </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <artifactId>spring-data-bom</artifactId>
+        <groupId>org.springframework.data</groupId>
+        <scope>import</scope>
+        <type>pom</type>
+        <version>2023.0.4</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>java-persistence-spring-data-hibernate</artifactId>
+    <groupId>com.azimbabu.javapersistence</groupId>
+    <relativePath>../../pom.xml</relativePath>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+</project>
