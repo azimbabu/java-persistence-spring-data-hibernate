@@ -36,6 +36,7 @@
     <module>ch09/onetooneforeigngenerator</module>
     <module>ch09/onetooneforeignkey</module>
     <module>ch09/onetoone-jointable</module>
+    <module>ch09/onetomany-bag</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

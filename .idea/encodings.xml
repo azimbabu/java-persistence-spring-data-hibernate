@@ -52,6 +52,8 @@
     <file url="file://$PROJECT_DIR$/ch08/mapping-associations/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch08/mapping-collections/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch08/mapping-collections/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/onetomany-bag/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/onetomany-bag/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetoone-jointable/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetoone-jointable/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetoone-sharedprimarykey/src/main/java" charset="UTF-8" />
