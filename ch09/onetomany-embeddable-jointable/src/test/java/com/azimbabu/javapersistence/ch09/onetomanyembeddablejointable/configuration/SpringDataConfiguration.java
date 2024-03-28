@@ -1,4 +1,4 @@
-package com.azimbabu.javapersistence.ch09.onetomanyembeddable.configuration;
+package com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable.configuration;
 
 import jakarta.persistence.EntityManagerFactory;
 import java.util.Properties;
@@ -15,8 +15,8 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
-@ComponentScan(basePackages = "com.azimbabu.javapersistence.ch09.onetomanyembeddable")
-@EnableJpaRepositories("com.azimbabu.javapersistence.ch09.onetomanyembeddable.repository")
+@ComponentScan(basePackages = "com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable")
+@EnableJpaRepositories("com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable.repository")
 public class SpringDataConfiguration {
 
   @Bean
@@ -24,7 +24,7 @@ public class SpringDataConfiguration {
     DriverManagerDataSource dataSource = new DriverManagerDataSource();
     dataSource.setDriverClassName(com.mysql.cj.jdbc.Driver.class.getName());
     dataSource.setUrl(
-        "jdbc:mysql://localhost:3306/CH09_ADVANCED_MAPPINGS_ONETOMANY_EMBEDDABLE?serverTimezone=UTC");
+        "jdbc:mysql://localhost:3306/CH09_ADVANCED_MAPPINGS_ONETOMANY_EMBEDDABLE_JOINTABLE?serverTimezone=UTC");
     dataSource.setUsername("root");
     dataSource.setPassword("abcd1234");
     return dataSource;
@@ -55,7 +55,7 @@ public class SpringDataConfiguration {
     entityManagerFactoryBean.setJpaProperties(properties);
     entityManagerFactoryBean.setJpaVendorAdapter(jpaVendorAdapter);
     entityManagerFactoryBean.setPackagesToScan(
-        "com.azimbabu.javapersistence.ch09.onetomanyembeddable");
+        "com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable");
     return entityManagerFactoryBean;
   }
 }

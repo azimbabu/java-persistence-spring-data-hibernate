@@ -13,4 +13,4 @@
         )
     }
 )
-package com.azimbabu.javapersistence.ch09.onetomanyembeddable;
+package com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable;

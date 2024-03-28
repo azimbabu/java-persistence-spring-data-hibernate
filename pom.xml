@@ -40,6 +40,7 @@
     <module>ch09/onetomany-list</module>
     <module>ch09/onetomany-jointable</module>
     <module>ch09/onetomany-embeddable</module>
+    <module>ch09/onetomany-embeddable-jointable</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

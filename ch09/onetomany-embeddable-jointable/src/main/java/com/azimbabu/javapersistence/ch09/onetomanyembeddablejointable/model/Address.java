@@ -1,8 +1,9 @@
-package com.azimbabu.javapersistence.ch09.onetomanyembeddable.model;
+package com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
+import jakarta.persistence.JoinTable;
 import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotNull;
 import java.util.Collections;
@@ -25,9 +26,10 @@ public class Address {
   private String city;
 
   @OneToMany
-  @JoinColumn(
-      name = "DELIVERY_ADDRESS_USER_ID",  // Defaults to DELIVERIES_ID
-      nullable = false
+  @JoinTable(
+      name = "DELIVERIES",  // Defaults to USERS_SHIPMENT
+      joinColumns = @JoinColumn(name = "USER_ID"),  // Defaults to USERS_ID
+      inverseJoinColumns = @JoinColumn(name = "SHIPMENT_ID")  // Defaults to SHIPMENTS_ID
   )
   private final Set<Shipment> deliveries = new HashSet<>();
 

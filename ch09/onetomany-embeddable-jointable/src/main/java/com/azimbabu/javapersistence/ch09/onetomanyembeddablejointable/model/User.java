@@ -1,6 +1,6 @@
-package com.azimbabu.javapersistence.ch09.onetomanyembeddable.model;
+package com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable.model;
 
-import com.azimbabu.javapersistence.ch09.onetomanyembeddable.Constants;
+import com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable.Constants;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;

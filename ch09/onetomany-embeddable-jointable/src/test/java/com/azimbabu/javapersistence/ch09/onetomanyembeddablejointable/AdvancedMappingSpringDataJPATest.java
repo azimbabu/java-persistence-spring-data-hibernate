@@ -1,6 +1,6 @@
-package com.azimbabu.javapersistence.ch09.onetomanyembeddable;
+package com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable;
 
-import com.azimbabu.javapersistence.ch09.onetomanyembeddable.configuration.SpringDataConfiguration;
+import com.azimbabu.javapersistence.ch09.onetomanyembeddablejointable.configuration.SpringDataConfiguration;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
