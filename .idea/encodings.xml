@@ -52,6 +52,8 @@
     <file url="file://$PROJECT_DIR$/ch08/mapping-associations/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch08/mapping-collections/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch08/mapping-collections/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/manytomany-bidirectional/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/manytomany-bidirectional/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetomany-bag/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetomany-bag/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetomany-embeddable-jointable/src/main/java" charset="UTF-8" />
