@@ -43,6 +43,8 @@
     <module>ch09/onetomany-embeddable-jointable</module>
     <module>ch09/manytomany-bidirectional</module>
     <module>ch09/manytomany-linkentity</module>
+    <module>ch09/manytomany-ternary</module>
+    <module>ch09/maps-mapkey</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
