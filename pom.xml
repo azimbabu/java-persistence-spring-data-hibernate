@@ -45,6 +45,7 @@
     <module>ch09/manytomany-linkentity</module>
     <module>ch09/manytomany-ternary</module>
     <module>ch09/maps-mapkey</module>
+    <module>ch09/maps-ternary</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

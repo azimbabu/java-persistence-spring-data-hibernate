@@ -60,6 +60,8 @@
     <file url="file://$PROJECT_DIR$/ch09/manytomany-ternary/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/maps-mapkey/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/maps-mapkey/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/maps-ternary/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch09/maps-ternary/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetomany-bag/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetomany-bag/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch09/onetomany-embeddable-jointable/src/main/java" charset="UTF-8" />
