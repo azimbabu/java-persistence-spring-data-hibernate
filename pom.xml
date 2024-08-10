@@ -47,6 +47,10 @@
     <module>ch09/maps-mapkey</module>
     <module>ch09/maps-ternary</module>
     <module>ch10/managing-data</module>
+    <module>ch11/transactions</module>
+    <module>ch11/transactions2</module>
+    <module>ch11/transactions3</module>
+    <module>ch11/transactions4</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

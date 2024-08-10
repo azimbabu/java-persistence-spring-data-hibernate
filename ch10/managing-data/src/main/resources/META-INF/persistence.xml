@@ -1,5 +1,8 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
   <persistence-unit name="ch10.managingdata">
+
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
     <properties>
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="jakarta.persistence.jdbc.url"
@@ -16,11 +19,12 @@
       <property name="hibernate.hbm2ddl.auto" value="create"/>
     </properties>
 
-    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-
   </persistence-unit>
 
   <persistence-unit name="ch10.managingdata.replicate">
+
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
     <properties>
       <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="jakarta.persistence.jdbc.url"
@@ -36,8 +40,6 @@
 
       <property name="hibernate.hbm2ddl.auto" value="create"/>
     </properties>
-
-    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
   </persistence-unit>
 </persistence>
