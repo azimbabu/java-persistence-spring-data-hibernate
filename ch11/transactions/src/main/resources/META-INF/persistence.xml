@@ -17,6 +17,9 @@
       <property name="hibernate.use_identifier_rollback" value="true"/>
 
       <property name="hibernate.hbm2ddl.auto" value="create"/>
+
+      <!--      Needed to fail manualVersionChecking in MySQL -->
+<!--      <property name="hibernate.connection.isolation" value="2"/> &lt;!&ndash;READ_COMMITTED &ndash;&gt;-->
     </properties>
 
   </persistence-unit>

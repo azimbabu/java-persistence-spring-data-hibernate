@@ -90,6 +90,26 @@
     <file url="file://$PROJECT_DIR$/ch11/transactions3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch11/transactions4/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch11/transactions4/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch11/transactions5-springdata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch11/transactions5-springdata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/batch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/batch/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/cartesianproduct/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/cartesianproduct/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/eagerjoin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/eagerjoin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/eagerselect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/eagerselect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/fetchloadgraph/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/fetchloadgraph/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/nplusoneselects/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/nplusoneselects/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/profile/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/profile/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/proxy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/proxy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/subselect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch12/subselect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

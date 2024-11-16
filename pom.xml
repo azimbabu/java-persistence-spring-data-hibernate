@@ -51,6 +51,16 @@
     <module>ch11/transactions2</module>
     <module>ch11/transactions3</module>
     <module>ch11/transactions4</module>
+    <module>ch11/transactions5-springdata</module>
+    <module>ch12/proxy</module>
+    <module>ch12/eagerjoin</module>
+    <module>ch12/nplusoneselects</module>
+    <module>ch12/cartesianproduct</module>
+    <module>ch12/batch</module>
+    <module>ch12/subselect</module>
+    <module>ch12/eagerselect</module>
+    <module>ch12/profile</module>
+    <module>ch12/fetchloadgraph</module>
   </modules>
   <packaging>pom</packaging>
   <properties>

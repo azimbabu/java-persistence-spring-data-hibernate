@@ -9,11 +9,7 @@
       <groupId>org.hibernate.orm</groupId>
       <version>6.3.1.Final</version>
     </dependency>
-    <dependency>
-      <artifactId>mysql-connector-java</artifactId>
-      <groupId>mysql</groupId>
-      <version>8.0.29</version>
-    </dependency>
+
     <dependency>
       <artifactId>spring-data-jpa</artifactId>
       <groupId>org.springframework.data</groupId>

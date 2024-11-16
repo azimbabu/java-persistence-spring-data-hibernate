@@ -133,6 +133,11 @@ public class Versioning {
           }
         }
 
+        //
+        /**
+         * Note that this commit won't fail in MySQL as MySQL's default isolation level is REPEATABLE_READ.
+         * In order to fail this commit, we need to set hibernate.connection.isolation=2 in persistence.xml
+         */
         em.getTransaction().commit();
       }
       /*

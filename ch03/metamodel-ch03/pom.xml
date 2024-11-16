@@ -39,7 +39,6 @@
       <groupId>jakarta.xml.bind</groupId>
       <version>4.0.1</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/org.antlr/antlr4 -->
     <dependency>
       <artifactId>antlr4</artifactId>
       <groupId>org.antlr</groupId>
