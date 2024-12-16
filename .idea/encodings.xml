@@ -120,6 +120,14 @@
     <file url="file://$PROJECT_DIR$/ch13/envers/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch13/interceptor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch13/interceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-hibernate-dao-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-hibernate-dao-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-hibernate-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-hibernate-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-jpa-dao-gen/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-jpa-dao-gen/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-jpa-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch14/spring-jpa-dao/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
