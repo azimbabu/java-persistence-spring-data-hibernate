@@ -8,7 +8,10 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.jdbc.repository.query.Modifying;
+import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.query.Param;
 import org.springframework.data.util.Streamable;
 import org.springframework.stereotype.Repository;
 
@@ -50,7 +53,7 @@ public interface UserRepository extends CrudRepository<User, Long> {
 
   Optional<User> findFirstByOrderByUsernameAsc();
 
-  Optional<User> findTopByOrderByRegistrationDateAsc();
+  Optional<User> findTopByOrderByRegistrationDateDesc();
 
   Page<User> findAll(Pageable pageable);
 
@@ -63,4 +66,18 @@ public interface UserRepository extends CrudRepository<User, Long> {
   Streamable<User> findByEmailContaining(String text);
 
   Streamable<User> findByLevel(int level);
+
+  @Query("SELECT COUNT(*) FROM USERS WHERE ACTIVE = :ACTIVE")
+  int findNumberOfUsersByActivity(@Param("ACTIVE") boolean active);
+
+  @Query("SELECT * FROM USERS WHERE LEVEL = :LEVEL AND ACTIVE = :ACTIVE")
+  List<User> findByLevelAndActive(@Param("LEVEL") int level, @Param("ACTIVE") boolean active);
+
+  @Modifying
+  @Query("UPDATE USERS SET LEVEL = :NEW_LEVEL WHERE LEVEL = :OLD_LEVEL")
+  int updateLevel(@Param("OLD_LEVEL") int oldLevel, @Param("NEW_LEVEL") int newLevel);
+
+  @Modifying
+  @Query("DELETE FROM USERS WHERE LEVEL = :LEVEL")
+  int deleteByLevel(@Param("LEVEL") int level);
 }
