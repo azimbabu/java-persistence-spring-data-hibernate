@@ -70,6 +70,7 @@
     <module>ch14/spring-jpa-dao-gen</module>
     <module>ch14/spring-hibernate-dao</module>
     <module>ch14/spring-hibernate-dao-gen</module>
+    <module>ch15/spring-data-jdbc3</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
