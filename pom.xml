@@ -71,6 +71,9 @@
     <module>ch14/spring-hibernate-dao</module>
     <module>ch14/spring-hibernate-dao-gen</module>
     <module>ch15/spring-data-jdbc3</module>
+    <module>ch15/spring-data-jdbc4</module>
+    <module>ch15/spring-data-jdbc5</module>
+    <module>ch15/spring-data-jdbc6</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
