@@ -1,0 +1,22 @@
+#GET http://localhost:8081/users/1
+#GET http://localhost:8081/users/1
+#If-None-Match: "0"
+
+#PATCH http://localhost:8081/users/1
+#Content-Type: application/json
+#
+#{
+#"name": "Amelia Janes",
+#"isRegistered": "true"
+#}
+
+#DELETE http://localhost:8081/users/1
+
+PATCH http://localhost:8081/users/21
+Content-Type: application/json
+
+{
+  "name": "Fazle Azim",
+  "registered": false,
+  "citizen": true
+}

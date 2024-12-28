@@ -74,6 +74,9 @@
     <module>ch15/spring-data-jdbc4</module>
     <module>ch15/spring-data-jdbc5</module>
     <module>ch15/spring-data-jdbc6</module>
+    <module>ch16/spring-data-rest</module>
+    <module>ch16/spring-data-rest-events</module>
+    <module>ch16/spring-data-rest-projections</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
