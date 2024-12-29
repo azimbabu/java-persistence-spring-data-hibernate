@@ -77,6 +77,8 @@
     <module>ch16/spring-data-rest</module>
     <module>ch16/spring-data-rest-events</module>
     <module>ch16/spring-data-rest-projections</module>
+    <module>ch17/springdatamongodb</module>
+    <module>ch17/springdatamongodb2</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
