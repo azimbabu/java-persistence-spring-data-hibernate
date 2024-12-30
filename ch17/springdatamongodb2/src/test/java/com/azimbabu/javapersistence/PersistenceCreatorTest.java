@@ -19,7 +19,7 @@ class PersistenceCreatorTest extends SpringDataMongoDBApplicationTests {
           assertNotNull(user.getUsername());
           assertNotNull(user.getFirstName());
           assertNotNull(user.getLastName());
-          assertEquals("192.168.1. 100", user.getIp());
+          assertEquals("192.168.1.100", user.getIp());
         }));
   }
 }

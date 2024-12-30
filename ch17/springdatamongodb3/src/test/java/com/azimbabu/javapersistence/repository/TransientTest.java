@@ -1,4 +1,4 @@
-package com.azimbabu.javapersistence;
+package com.azimbabu.javapersistence.repository;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;

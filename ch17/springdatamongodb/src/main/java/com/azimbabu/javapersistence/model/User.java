@@ -72,7 +72,7 @@ public class User {
 
 //  @PersistenceConstructor
   @PersistenceCreator
-  public User(String username, String firstName, String lastName, @Value("#root.ip ?: '192.168.1. 100'") String ip) {
+  public User(String username, String firstName, String lastName, @Value("#root.ip ?: '192.168.1.100'") String ip) {
     this.username = username;
     this.firstName = firstName;
     this.lastName = lastName;
