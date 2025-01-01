@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;

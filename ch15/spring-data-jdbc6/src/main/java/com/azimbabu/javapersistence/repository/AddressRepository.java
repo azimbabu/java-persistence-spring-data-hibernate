@@ -1,6 +1,6 @@
 package com.azimbabu.javapersistence.repository;
 
-import com.azimbabu.javapersistence.model.Address;
+import com.azimbabu.javapersistence.hibernateogm.model.Address;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

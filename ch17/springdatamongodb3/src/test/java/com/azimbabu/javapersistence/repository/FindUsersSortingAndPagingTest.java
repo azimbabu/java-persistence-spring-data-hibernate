@@ -3,7 +3,7 @@ package com.azimbabu.javapersistence.repository;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.data.domain.Page;

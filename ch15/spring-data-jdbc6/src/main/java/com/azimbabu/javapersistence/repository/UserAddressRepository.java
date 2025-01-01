@@ -1,6 +1,6 @@
 package com.azimbabu.javapersistence.repository;
 
-import com.azimbabu.javapersistence.model.UserAddress;
+import com.azimbabu.javapersistence.hibernateogm.model.UserAddress;
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

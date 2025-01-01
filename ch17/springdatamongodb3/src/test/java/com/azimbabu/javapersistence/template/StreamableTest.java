@@ -2,7 +2,7 @@ package com.azimbabu.javapersistence.template;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.Test;
 import org.springframework.data.mongodb.core.query.Criteria;

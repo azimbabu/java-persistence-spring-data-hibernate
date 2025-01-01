@@ -1,6 +1,6 @@
 package com.azimbabu.javapersistence;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import com.azimbabu.javapersistence.repository.UserRepository;
 import java.time.LocalDate;
 import java.time.Month;

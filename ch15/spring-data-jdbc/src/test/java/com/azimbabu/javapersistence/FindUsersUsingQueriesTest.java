@@ -2,7 +2,7 @@ package com.azimbabu.javapersistence;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 

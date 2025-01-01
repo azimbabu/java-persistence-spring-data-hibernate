@@ -2,7 +2,7 @@ package com.azimbabu.javapersistence.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.util.List;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;

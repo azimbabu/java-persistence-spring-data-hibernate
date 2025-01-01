@@ -1,0 +1,13 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+  version="2.0">
+  <persistence-unit name="ch18.hibernate.ogm">
+    <provider>org.hibernate.ogm.jpa.HibernateOgmPersistence</provider>
+    <properties>
+      <property name="hibernate.ogm.datastore.provider" value="neo4j_embedded"/>
+      <property name="hibernate.ogm.datastore.database" value="hibernate_ogm"/>
+      <property name="hibernate.ogm.neo4j.database_path" value="target/test_data_dir"/>
+    </properties>
+  </persistence-unit>
+</persistence>

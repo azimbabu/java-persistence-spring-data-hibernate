@@ -1,7 +1,7 @@
 package com.azimbabu.javapersistence.beans;
 
-import com.azimbabu.javapersistence.model.Auction;
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.Auction;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

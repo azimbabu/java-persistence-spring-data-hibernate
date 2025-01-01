@@ -1,8 +1,8 @@
 package com.azimbabu.javapersistence.template;
 
 import com.azimbabu.javapersistence.UserGenerator;
-import com.azimbabu.javapersistence.model.Address;
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.Address;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.TestInstance;

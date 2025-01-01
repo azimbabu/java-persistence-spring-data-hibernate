@@ -1,7 +1,7 @@
 package com.azimbabu.javapersistence;
 
 import com.azimbabu.javapersistence.beans.CsvDataLoader;
-import com.azimbabu.javapersistence.model.Auction;
+import com.azimbabu.javapersistence.hibernateogm.model.Auction;
 import com.azimbabu.javapersistence.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;

@@ -1,6 +1,6 @@
 package com.azimbabu.javapersistence.event;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.data.rest.core.annotation.HandleAfterCreate;

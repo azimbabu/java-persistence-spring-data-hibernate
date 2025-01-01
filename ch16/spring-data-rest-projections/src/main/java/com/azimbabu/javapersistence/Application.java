@@ -1,8 +1,8 @@
 package com.azimbabu.javapersistence;
 
 import com.azimbabu.javapersistence.beans.CsvDataLoader;
-import com.azimbabu.javapersistence.model.Address;
-import com.azimbabu.javapersistence.model.Auction;
+import com.azimbabu.javapersistence.hibernateogm.model.Address;
+import com.azimbabu.javapersistence.hibernateogm.model.Auction;
 import com.azimbabu.javapersistence.repository.UserRepository;
 import java.util.concurrent.atomic.AtomicInteger;
 import org.springframework.beans.factory.annotation.Autowired;

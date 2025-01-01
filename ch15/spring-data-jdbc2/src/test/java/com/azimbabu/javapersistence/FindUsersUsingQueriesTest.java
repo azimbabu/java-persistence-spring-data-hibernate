@@ -3,7 +3,7 @@ package com.azimbabu.javapersistence;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.Arrays;

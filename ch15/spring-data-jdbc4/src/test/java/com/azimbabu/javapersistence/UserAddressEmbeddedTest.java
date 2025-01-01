@@ -2,8 +2,8 @@ package com.azimbabu.javapersistence;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.azimbabu.javapersistence.model.Address;
-import com.azimbabu.javapersistence.model.User;
+import com.azimbabu.javapersistence.hibernateogm.model.Address;
+import com.azimbabu.javapersistence.hibernateogm.model.User;
 import com.azimbabu.javapersistence.repository.UserRepository;
 import java.time.LocalDate;
 import java.time.Month;
