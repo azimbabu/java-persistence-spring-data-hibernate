@@ -156,6 +156,8 @@
     <file url="file://$PROJECT_DIR$/ch18/hibernate-ogm-mongodb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch18/hibernate-ogm-neo4j/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch18/hibernate-ogm-neo4j/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch19/querydsl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ch19/querydsl/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-jdbc2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-jdbc2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />

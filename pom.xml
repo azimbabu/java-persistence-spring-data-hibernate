@@ -82,6 +82,7 @@
     <module>ch17/springdatamongodb3</module>
     <module>ch18/hibernate-ogm-mongodb</module>
     <module>ch18/hibernate-ogm-neo4j</module>
+    <module>ch19/querydsl</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
