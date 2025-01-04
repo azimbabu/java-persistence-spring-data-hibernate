@@ -83,6 +83,7 @@
     <module>ch18/hibernate-ogm-mongodb</module>
     <module>ch18/hibernate-ogm-neo4j</module>
     <module>ch19/querydsl</module>
+    <module>ch20/spring-testing</module>
   </modules>
   <packaging>pom</packaging>
   <properties>
