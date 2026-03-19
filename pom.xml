@@ -7,7 +7,8 @@
   <groupId>com.azimbabu.javapersistence</groupId>
   <modelVersion>4.0.0</modelVersion>
   <modules>
-    <module>ch02/helloworld-ch02</module>
+    <module>ch02/helloworld-jpa-hibernate-ch02</module>
+    <module>ch02/helloworld-spring-data-jpa-ch02</module>
     <module>ch03/domainmodel-ch03</module>
     <module>ch03/validation-ch03</module>
     <module>ch03/metadataxmljpa-ch03</module>

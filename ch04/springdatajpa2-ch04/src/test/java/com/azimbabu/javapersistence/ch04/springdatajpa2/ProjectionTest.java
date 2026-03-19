@@ -34,9 +34,16 @@ public class ProjectionTest extends SpringDataJpaApplicationTests {
   void testFindByEmailDynamicProjection() {
     List<UsernameOnly> usernames = userRepository.findByEmail("mike@somedomain.com",
         Projection.UsernameOnly.class);
+
     List<User> users = userRepository.findByEmail("mike@somedomain.com", User.class);
+
+    List<UserSummary> userSummaries = userRepository.findByEmail("mike@somedomain.com",
+        UserSummary.class);
+
     assertAll(() -> assertEquals(1, usernames.size()),
         () -> assertEquals("mike", usernames.get(0).getUsername()),
+        () -> assertEquals(1, userSummaries.size()),
+        () -> assertEquals("mike", userSummaries.get(0).getUsername()),
         () -> assertEquals(1, users.size()),
         () -> assertEquals("mike", users.get(0).getUsername()));
   }

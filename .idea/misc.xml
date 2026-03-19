@@ -11,6 +11,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/ch02/helloworld-hibernate-ch02/pom.xml" />
         <option value="$PROJECT_DIR$/ch04/springdatajpa2-ch04-deleted/pom.xml" />
         <option value="$PROJECT_DIR$/spring-data-jdbc2/pom.xml" />
       </set>

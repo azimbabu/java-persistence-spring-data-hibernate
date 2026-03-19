@@ -2,23 +2,17 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns="http://maven.apache.org/POM/4.0.0"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <artifactId>helloworld-ch02</artifactId>
+  <artifactId>helloworld-jpa-hibernate-ch02</artifactId>
   <dependencies>
     <dependency>
       <artifactId>hibernate-core</artifactId>
       <groupId>org.hibernate.orm</groupId>
       <version>6.3.1.Final</version>
     </dependency>
-
     <dependency>
-      <artifactId>spring-data-jpa</artifactId>
-      <groupId>org.springframework.data</groupId>
-    </dependency>
-    <dependency>
-      <artifactId>spring-test</artifactId>
-      <groupId>org.springframework</groupId>
-      <scope>test</scope>
-      <version>6.0.12</version>
+      <artifactId>mysql-connector-java</artifactId>
+      <groupId>mysql</groupId>
+      <version>8.0.29</version>
     </dependency>
     <dependency>
       <artifactId>junit-jupiter-engine</artifactId>
@@ -33,18 +27,6 @@
       <version>1.18.30</version>
     </dependency>
   </dependencies>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <artifactId>spring-data-bom</artifactId>
-        <groupId>org.springframework.data</groupId>
-        <scope>import</scope>
-        <type>pom</type>
-        <version>2023.0.4</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <modelVersion>4.0.0</modelVersion>
 
